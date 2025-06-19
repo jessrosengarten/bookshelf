@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Bookshelf</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Virtual Bookshelf</h1>
+  </header>
+
+  <main>
+    <section id="book-form-section">
+    <h2>Add a Book</h2>
+    <form id="book-form">
+      <label for="title">Title:</label>
+      <input type="text" id="title" required />
+
+      <label for="author">Author:</label>
+      <input type="text" id="author" required />
+
+      <label for="genre">Genre:</label>
+      <input type="text" id="genre" />
+
+      <label for="date">Date Read:</label>
+      <input type="date" id="date" />
+
+      <button type="submit">Add to Shelf</button>
+    </form>
+  </section>
+
+  <section id="bookshelf">
+    <h2>My Books</h2>
+    <div id="book-list"></div>
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
